@@ -9,8 +9,9 @@ import {
   Download,
   Info,
   Lightbulb,
-  CheckCircle2,
+  Check,
   AlertCircle,
+  BookOpen,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -247,21 +248,21 @@ export default function NewBatchPaymentPage() {
             </CardHeader>
             <CardContent className="space-y-3">
               <div className="flex items-start gap-2 text-sm">
-                <CheckCircle2 className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" />
+                <Check className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" />
                 <p className="text-slate-400">
                   Use valid Stellar wallet addresses
                 </p>
               </div>
               <div className="flex items-start gap-2 text-sm">
-                <CheckCircle2 className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" />
+                <Check className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" />
                 <p className="text-slate-400">Verify amounts and asset types</p>
               </div>
               <div className="flex items-start gap-2 text-sm">
-                <CheckCircle2 className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" />
+                <Check className="w-4 h-4 text-emerald-500 mt-0.5 shrink-0" />
                 <p className="text-slate-400">Test with small amounts first</p>
               </div>
               <button className="text-emerald-500 hover:text-emerald-400 text-sm flex items-center gap-1 mt-2">
-                <Info className="w-3 h-3" />
+                <BookOpen className="w-3 h-3" />
                 View Documentation
               </button>
             </CardContent>
