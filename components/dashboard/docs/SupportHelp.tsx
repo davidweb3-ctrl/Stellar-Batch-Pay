@@ -1,6 +1,6 @@
 'use client';
 
-import { Mail, Users, FileText,Headset } from 'lucide-react';
+import { Mail, Users,Headset,Bug } from 'lucide-react';
 import {
   Card,
   CardContent,
@@ -26,7 +26,7 @@ const cards = [
     href: '#discord',
   },
   {
-    icon: FileText,
+    icon: Bug,
     title: 'Report Issues',
     description: 'Report bugs or feature requests',
     buttonLabel: 'Report Issue',
